@@ -2,6 +2,10 @@ from deck import card_name, card_value, end_turn_status, end_game_status
 from random import randint
 
 def main():
+  print("\n----------------------------------------------------------------")
+  print("                ♠♣♥♦ WELCOME TO BLACKJACK! ♠♣♥♦")
+  print("                          Lets Play!")
+  print("----------------------------------------------------------------")
   print("{} \n{} \n{} ".format("-----------", "YOUR TURN", "-----------"))
 
   user_hand = 0
